@@ -135,7 +135,7 @@ renovateServer:
 renovateWorker:
   image:
     repository: ghcr.io/mend/renovate-ee-worker
-    tag: 6.6.0-full
+    tag: 9.10.0-full
     pullPolicy: IfNotPresent
 
   # Additional worker env vars
